@@ -3,13 +3,6 @@
     overflow: hidden;
     margin-bottom: 3%;
 }
-.Uppernav_{
-    margin-left: 1.5%;
-    color: green;
-    font-weight: 800;
-    font-size: 2rem;
-    font-style: italic;
-}
 .nav_{
     color: black;
     margin-top: 2%;
@@ -74,6 +67,10 @@ img{
     height: 60vh;
     width: 40%;
     border: 4px dotted black;
+}
+.whatsapp{
+    height: 50%;
+    margin-right: 30%;
 }
 .underline{
     margin-top:3%;
@@ -210,19 +207,12 @@ ul{
 
 /* MAIN */
 @media (max-width:1440px){
-    .Uppernav_{
-        margin-left: 1.5%;
-        color: green;
-        font-weight: 800;
-        font-size: 2rem;
-        font-style: italic;
-    }
         .firstwriteup{
         color: black;
         margin-top: 1.5%;
         border: 5px dotted red;
         width: 52vw;
-        height: 22vh;
+        height: 20vh;
         margin-left: 25%;
         font-weight: 500;
         text-align:center;
@@ -237,12 +227,16 @@ ul{
         border-radius: 2%;
         margin-left: 42%;
         margin-top: 2%;
-        height: 10vh;
+        height: 12vh;
         background-color: green;
     }
     button:hover{
         transform: scale(1.1);
         transition: ease-in-out .4s;
+    }
+    .whatsapp{
+        height: 50%;
+        margin-right: 30%;
     }
     img{
         height: 46vh;
@@ -290,13 +284,6 @@ ul{
 }
 
 @media (max-width:1024px){
-    .Uppernav_{
-        margin-left: 1.5%;
-        color: green;
-        font-weight: 800;
-        font-size: 1.8rem;
-        font-style: italic;
-    }
     .nav_{
         color: black;
         margin-top: 2%;
@@ -317,17 +304,21 @@ ul{
     img{
         height: 22vh;
     }
+    .whatsapp{
+        height: 30%;
+        margin-right: 30%;
+    }
     button{
         font-weight: 500;
         width: 18vw;
-        font-size: medium;
+        font-size: small;
         color: white;
         border: 2px solid black;
         cursor: pointer;
         border-radius: 2%;
         margin-left: 45%;
         margin-top: 2%;
-        height: 6vh;
+        height: 8vh;
         background-color: green;
     }
     button:hover{
@@ -380,13 +371,6 @@ ul{
 
 
 @media (max-width:768px){
-    .Uppernav_{
-        margin-left: 1.5%;
-        color: green;
-        font-weight: 800;
-        font-size: 1.3rem;
-        font-style: italic;
-    }
     .nav_{
         color: black;
         margin-top: 2%;
@@ -468,13 +452,6 @@ ul{
 
 
 @media (max-width:425px){
-    .Uppernav_{
-        margin-left: 1%;
-        color: green;
-        font-weight: 800;
-        font-size: 1rem;
-        font-style: italic;
-    }
     .nav_{
         color: black;
         margin-top: 2%;
@@ -495,7 +472,7 @@ ul{
     button{
         font-weight: 500;
         width: 18vw;
-        font-size: 0.5rem;
+        font-size: 7px;
         color: white;
         border: 2px solid black;
         cursor: pointer;
@@ -533,6 +510,10 @@ ul{
         height: 19vh;
         border: 4px dotted black;
     }
+    .whatsapp{
+        height: 20%;
+        margin-right: 30%;
+    }
     .underline{
         text-decoration: underline;
         color: black;
@@ -559,13 +540,6 @@ ul{
 
 
 @media (max-width:375px){
-    .Uppernav_{
-        margin-left: 1%;
-        color: green;
-        font-weight: 800;
-        font-size: 1rem;
-        font-style: italic;
-    }
     .nav_{
         color: black;
         margin-top: 2%;
@@ -586,14 +560,14 @@ ul{
     button{
         font-weight: 500;
         width: 18vw;
-        font-size: 0.5rem;
+        font-size: 7px;
         color: white;
         border: 2px solid black;
         cursor: pointer;
         border-radius: 2%;
         margin-left: 45%;
         margin-top: 2%;
-        height: 6vh;
+        height: 7.5vh;
         background-color: green;
     }
     button:hover{
@@ -603,7 +577,7 @@ ul{
     .writeup_{
         width: 40vw;
         font-weight: 800;
-        font-size: 49%;
+        font-size: 46%;
         font-style: italic;
         margin-top: 2%;
         margin-left: 2%;
@@ -650,13 +624,6 @@ ul{
 }
 
 @media (max-width:320px){
-    .Uppernav_{
-        margin-left: 1%;
-        color: green;
-        font-weight: 800;
-        font-size: 1rem;
-        font-style: italic;
-    }
     .nav_{
         color: black;
         margin-top: 2%;

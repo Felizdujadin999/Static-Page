@@ -1,9 +1,10 @@
 import '../style/staticPage.css';
 import picture from '../asset/images/pic.jpg';
-import picture1 from '../asset/images/pic2.jpeg'
-import picture2 from '../asset/images/pic3.jpeg'
-import picture3 from '../asset/images/pic4.jpeg'
-import picture4 from '../asset/images/pic5.jpeg'
+import picture1 from '../asset/images/pic2.jpeg';
+import picture2 from '../asset/images/pic3.jpeg';
+import picture3 from '../asset/images/pic4.jpeg';
+import picture4 from '../asset/images/pic5.jpeg';
+import whattsapp from '../asset/images/whatsapp.svg';
 
 
 function Page(){
@@ -11,17 +12,16 @@ function Page(){
     const whattsappLink = "https://wa.me/2347060679230";
     return (
         <div className="section_main">
-            <div className="Uppernav_">UMM(Ultimate Money Machine).</div>
             <div className="nav_">FINALLY!!!</div>
             <div className="firstwriteup">
-                THE LITTLE-KNOWN SECRET TO EARNING IN <span>DOLLARS $$</span> THAT MOST PEOPLE DON'T WANT YOU TO KNOW <br /><br />
+                THE LITTLE-KNOWN SECRET TO EARNING OVER <span>300k on a weekly basis</span> THAT MOST PEOPLE DON'T WANT YOU TO KNOW <br /><br />
                 <span>GET ACCESS TO THE THE FREE VIDEO NOW!!!</span>
             </div>
-            <a href={whattsappLink} target="_blank" rel="noopener noreferrer"><button>CLICK HERE TO GET ACCESS</button></a>
+            <a href={whattsappLink} target="_blank" rel="noopener noreferrer"><button><img className="whatsapp" src={whattsapp} alt="whatsapp icon"/>CLICK HERE TO GET ACCESS</button></a>
 
             <div className="secondwriteup">
                 <div className="writeup_">
-                    My name is <span className="name">Soabesan Tantolorun</span>, i'm an ultimate money machine consultant. I will show you how you can profit from the internet.
+                    My name is <span className="name">Soabesan Tantolorun</span>, i'm a top affiliate marketer, I am also a coach who has trained many students to start up and scale their <span className="thickner"> Affiliate Marketing Business.</span>I will show you how you can profit from the internet.
                     I will be guiding you hand in hand how you can earn up to 300k on a "Weekly basis", selling other people's products with
                     just your laptop or smartphone.... 
                 </div>
@@ -29,7 +29,7 @@ function Page(){
                 <img src={picture} alt="pic" />
 
             </div>
-            <a href={whattsappLink} target="_blank" rel="noopener noreferrer"><button>CLICK HERE TO GET ACCESS</button></a>
+            <a href={whattsappLink} target="_blank" rel="noopener noreferrer"><button><img className="whatsapp" src={whattsapp} alt="whatsapp icon"/>CLICK HERE TO GET ACCESS</button></a>
 
             <div>
                 <p className="underline">NOW, here's exactly how it works:</p>
@@ -49,7 +49,7 @@ function Page(){
                     </ul>
                 </div>
                 
-                <a href={whattsappLink} target="_blank" rel="noopener noreferrer"><button>CLICK HERE TO GET ACCESS</button></a>
+                <a href={whattsappLink} target="_blank" rel="noopener noreferrer"><button><img className="whatsapp" src={whattsapp} alt="whatsapp icon"/>CLICK HERE TO GET ACCESS</button></a>
             
             </div>
 
@@ -79,7 +79,7 @@ function Page(){
                 <p className="small">I believe the possiblity of you doing it....</p>
             </div>
 
-            <a href={whattsappLink} target="_blank" rel="noopener noreferrer"><button>CLICK HERE TO GET ACCESS</button></a>
+            <a href={whattsappLink} target="_blank" rel="noopener noreferrer"><button><img className="whatsapp" src={whattsapp} alt="whatsapp icon"/>CLICK HERE TO GET ACCESS</button></a>
         </div>
     )
 }
