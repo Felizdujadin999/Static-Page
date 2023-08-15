@@ -5,6 +5,7 @@
 }
 .nav_{
     background: linear-gradient(to bottom, #FF0000, #FF3366);
+    color: white;
     border: 4px dotted black;
     text-align: center;
     width: 30%;
@@ -216,6 +217,7 @@ ul{
 /* MAIN */
 @media (max-width:1440px){
     .nav_{
+        color: white;
         background: linear-gradient(to bottom, #FF0000, #FF3366);
     }
     .firstwriteup{
@@ -306,6 +308,7 @@ ul{
 
 @media (max-width:1024px){
     .nav_{
+        color: white;
         background: linear-gradient(to bottom, #FF0000, #FF3366);
         border: 4px dotted black;
         text-align: center;
@@ -397,6 +400,7 @@ ul{
 
 @media (max-width:768px){
     .nav_{
+        color: white;
         background: linear-gradient(to bottom, #FF0000, #FF3366);
         border: 4px dotted black;
         text-align: center;
@@ -482,6 +486,7 @@ ul{
 
 @media (max-width:425px){
     .nav_{
+        color: white;
         background: linear-gradient(to bottom, #FF0000, #FF3366);
         border: 4px dotted black;
         text-align: center;
@@ -574,6 +579,7 @@ ul{
 
 @media (max-width:375px){
     .nav_{
+        color: white;
         background: linear-gradient(to bottom, #FF0000, #FF3366);
         border: 4px dotted black;
         text-align: center;
@@ -662,6 +668,7 @@ ul{
 
 @media (max-width:320px){
     .nav_{
+        color: white;
         background: linear-gradient(to bottom, #FF0000, #FF3366);
         border: 4px dotted black;
         text-align: center;

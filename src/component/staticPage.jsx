@@ -22,7 +22,7 @@ function Page(){
 
             <div className="secondwriteup">
                 <div className="writeup_">
-                    My name is <span className="name">Soabesan Tantolorun</span>,i am a licensed 6 figure Affiliate Marketer. I'm a top affiliate marketer to a two multimillion company, I am also a coach who has trained many students to start up and scale their <span className="thickner"> Affiliate Marketing Business.</span> and yes i am a student in my early 20's. I have always been an ambitious young lady and believed in the possiblity of earning legally online.
+                    My name is <span className="name">Soabesan Tantolorun</span>,i am a licensed 6 figure Affiliate Marketer. I'm an affiliate marketer to a two multimillion company, I am also a coach who has trained many students to start up and scale their <span className="thickner"> Affiliate Marketing Business.</span> and yes i am a student in my early 20's. I have always been an ambitious young lady and believed in the possiblity of earning legally online.
                     I will show you how you can profit from the internet. I will be guiding you hand in hand how you can earn up to 200k on a "Weekly basis", selling other people's products with just your laptop or smartphone.... 
                 </div>
 
@@ -76,7 +76,7 @@ function Page(){
             <div className='footer'>
                 <p className="small">You too can do it!!.</p>
                 <p className="small">Your only setback is you!.</p>
-                <p className="small">With CONSISTENCY, HAEDWORK AND A POSITIVE MINDSET!!,</p>
+                <p className="small">With CONSISTENCY, HARDWORK AND A POSITIVE MINDSET!!,</p>
                 <p className="small">I believe the possiblity of you doing it....</p>
             </div>
 
