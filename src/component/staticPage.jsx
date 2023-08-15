@@ -12,23 +12,24 @@ function Page(){
     const whattsappLink = "https://wa.me/2347060679230";
     return (
         <div className="section_main">
-            <div className="nav_">FINALLY!!!</div>
+            <div className="nav_">FINALLY REVEALED  !!!</div>
             <div className="firstwriteup">
-                THE LITTLE-KNOWN SECRET TO EARNING OVER <span>300k on a weekly basis</span> THAT MOST PEOPLE DON'T WANT YOU TO KNOW <br /><br />
-                <span>GET ACCESS TO THE THE FREE VIDEO NOW!!!</span>
+                THE LITTLE-KNOWN SECRET SYSTEM TO EARNING OVER <span>200k on a weekly basis</span> THAT MOST PEOPLE DON'T WANT YOU TO KNOW <br /><br />
+                <span>GET ACCESS TO THE THE FREE VIDEO NOW!!!</span> <br /> <br />
+                NOTE:- This is not the usual make money online things you have been seeing around...
             </div>
             <a href={whattsappLink} target="_blank" rel="noopener noreferrer"><button><img className="whatsapp" src={whattsapp} alt="whatsapp icon"/>CLICK HERE TO GET ACCESS</button></a>
 
             <div className="secondwriteup">
                 <div className="writeup_">
-                    My name is <span className="name">Soabesan Tantolorun</span>, i'm a top affiliate marketer, I am also a coach who has trained many students to start up and scale their <span className="thickner"> Affiliate Marketing Business.</span>I will show you how you can profit from the internet.
-                    I will be guiding you hand in hand how you can earn up to 300k on a "Weekly basis", selling other people's products with
-                    just your laptop or smartphone.... 
+                    My name is <span className="name">Soabesan Tantolorun</span>,i am a licensed 6 figure Affiliate Marketer. I'm a top affiliate marketer to a two multimillion company, I am also a coach who has trained many students to start up and scale their <span className="thickner"> Affiliate Marketing Business.</span> and yes i am a student in my early 20's. I have always been an ambitious young lady and believed in the possiblity of earning legally online.
+                    I will show you how you can profit from the internet. I will be guiding you hand in hand how you can earn up to 200k on a "Weekly basis", selling other people's products with just your laptop or smartphone.... 
                 </div>
 
                 <img src={picture} alt="pic" />
 
             </div>
+
             <a href={whattsappLink} target="_blank" rel="noopener noreferrer"><button><img className="whatsapp" src={whattsapp} alt="whatsapp icon"/>CLICK HERE TO GET ACCESS</button></a>
 
             <div>

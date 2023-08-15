@@ -4,9 +4,13 @@
     margin-bottom: 3%;
 }
 .nav_{
+    background: linear-gradient(to bottom, #FF0000, #FF3366);
+    border: 4px dotted black;
+    text-align: center;
+    width: 30%;
     color: black;
     margin-top: 2%;
-    margin-left: 45%;
+    margin-left: 37%;
     font-weight: 700;
     font-size: 30px;
 }
@@ -15,7 +19,7 @@
     margin-top: 1.5%;
     border: 5px dotted red;
     width: 50vw;
-    height: 19vh;
+    height: 21vh;
     margin-left: 25%;
     font-weight: 500;
     text-align:center;
@@ -64,7 +68,7 @@ span{
 img{
     cursor: pointer;
     margin-left: 20%;
-    height: 60vh;
+    height: 70vh;
     width: 40%;
     border: 4px dotted black;
 }
@@ -141,9 +145,13 @@ ul{
 
 @media (max-width:1180px) {
     .nav_{
+        background: linear-gradient(to bottom, #FF0000, #FF3366);
+        border: 4px dotted black;
+        text-align: center;
+        width: 30%;
         color: black;
         margin-top: 2%;
-        margin-left: 42%;
+        margin-left: 37%;
         font-weight: 700;
         font-size: 30px;
     }
@@ -207,12 +215,15 @@ ul{
 
 /* MAIN */
 @media (max-width:1440px){
-        .firstwriteup{
+    .nav_{
+        background: linear-gradient(to bottom, #FF0000, #FF3366);
+    }
+    .firstwriteup{
         color: black;
         margin-top: 1.5%;
         border: 5px dotted red;
         width: 52vw;
-        height: 20vh;
+        height: 40vh;
         margin-left: 25%;
         font-weight: 500;
         text-align:center;
@@ -239,7 +250,7 @@ ul{
         margin-right: 30%;
     }
     img{
-        height: 46vh;
+        height: 76vh;
     }
     .writeup_{
         width: 40vw;
@@ -253,7 +264,7 @@ ul{
     .secondwriteup{
         color: black;
         margin-top: 2%;
-        margin-bottom: 2%;
+        margin-bottom: 20%;
         width: 70vw;
         margin-left: 13%;
         display: flex;
@@ -281,28 +292,42 @@ ul{
         padding-bottom: 1.5%;
         box-shadow: 0px 4px 6px black, 0px 1px 3px black;
     }
+    .imgSection1{
+        margin-top: 4%;
+        margin-right: 20%;
+        display: flex;
+    }
+    .imgSection2{
+        margin-top: 4%;
+        margin-right: 20%;
+        display: flex;
+    }
 }
 
 @media (max-width:1024px){
     .nav_{
+        background: linear-gradient(to bottom, #FF0000, #FF3366);
+        border: 4px dotted black;
+        text-align: center;
+        width: 32%;
         color: black;
         margin-top: 2%;
-        margin-left: 45%;
+        margin-left: 37%;
         font-weight: 700;
-        font-size: 25px;
+        font-size: 30px;
     }
     .firstwriteup{
         color: black;
         margin-top: 1.5%;
         border: 5px dotted red;
         width: 54vw;
-        height: 14vh;
+        height: 20vh;
         margin-left: 25%;
         text-align:center;
         font-size: 1rem;
     }
     img{
-        height: 22vh;
+        height: 36vh;
     }
     .whatsapp{
         height: 30%;
@@ -337,7 +362,7 @@ ul{
     .secondwriteup{
         color: black;
         margin-top: 2%;
-        margin-bottom: 2%;
+        margin-bottom: 20%;
         width: 70vw;
         margin-left: 13%;
         display: flex;
@@ -372,18 +397,22 @@ ul{
 
 @media (max-width:768px){
     .nav_{
+        background: linear-gradient(to bottom, #FF0000, #FF3366);
+        border: 4px dotted black;
+        text-align: center;
+        width: 42%;
         color: black;
         margin-top: 2%;
-        margin-left: 45%;
+        margin-left: 33%;
         font-weight: 700;
-        font-size: 23px;
+        font-size: 30px;
     }
     .firstwriteup{
         color: black;
         margin-top: 1.5%;
         border: 5px dotted red;
         width: 56vw;
-        height: 15vh;
+        height: 32vh;
         margin-left: 25%;
         text-align:center;
         font-size: 1rem;
@@ -391,7 +420,7 @@ ul{
     button{
         font-weight: 500;
         width: 18vw;
-        font-size: medium;
+        font-size: 7.5px;
         color: white;
         border: 2px solid black;
         cursor: pointer;
@@ -406,7 +435,7 @@ ul{
         transition: ease-in-out .4s;
     }
     img{
-        height: 22vh;
+        height: 42vh;
     }
     .writeup_{
         width: 40vw;
@@ -420,7 +449,7 @@ ul{
     .secondwriteup{
         color: black;
         margin-top: 2%;
-        margin-bottom: 2%;
+        margin-bottom: 20%;
         width: 72vw;
         margin-left: 13%;
         display: flex;
@@ -453,18 +482,22 @@ ul{
 
 @media (max-width:425px){
     .nav_{
+        background: linear-gradient(to bottom, #FF0000, #FF3366);
+        border: 4px dotted black;
+        text-align: center;
+        width: 32%;
         color: black;
         margin-top: 2%;
-        margin-left: 45%;
+        margin-left: 37%;
         font-weight: 700;
-        font-size: 15px;
+        font-size: 10px;
     }
     .firstwriteup{
         color: black;
         margin-top: 1.5%;
         border: 5px dotted red;
         width: 55vw;
-        height: 14vh;
+        height: 22vh;
         margin-left: 25%;
         text-align:center;
         font-size: 0.7rem;
@@ -478,7 +511,7 @@ ul{
         cursor: pointer;
         border-radius: 2%;
         margin-left: 45%;
-        margin-top: 2%;
+        margin-top: 3%;
         height: 6vh;
         background-color: green;
     }
@@ -498,7 +531,7 @@ ul{
     .secondwriteup{
         color: black;
         margin-top: 2%;
-        margin-bottom: 2%;
+        margin-bottom: 29%;
         width: 80vw;
         margin-left: 13%;
         display: flex;
@@ -507,7 +540,7 @@ ul{
     img{
         margin-left: 20%;
         width: 50%;
-        height: 19vh;
+        height: 29vh;
         border: 4px dotted black;
     }
     .whatsapp{
@@ -541,25 +574,29 @@ ul{
 
 @media (max-width:375px){
     .nav_{
+        background: linear-gradient(to bottom, #FF0000, #FF3366);
+        border: 4px dotted black;
+        text-align: center;
+        width: 32%;
         color: black;
         margin-top: 2%;
-        margin-left: 45%;
+        margin-left: 37%;
         font-weight: 700;
-        font-size: 15px;
+        font-size: 10px;
     }
     .firstwriteup{
         color: black;
         margin-top: 1.5%;
         border: 5px dotted red;
         width: 55vw;
-        height: 16vh;
+        height: 30vh;
         margin-left: 25%;
         text-align:center;
         font-size: 0.7rem;
     }
     button{
         font-weight: 500;
-        width: 18vw;
+        width: 20vw;
         font-size: 7px;
         color: white;
         border: 2px solid black;
@@ -567,7 +604,7 @@ ul{
         border-radius: 2%;
         margin-left: 45%;
         margin-top: 2%;
-        height: 7.5vh;
+        height: 6.5vh;
         background-color: green;
     }
     button:hover{
@@ -586,16 +623,16 @@ ul{
     .secondwriteup{
         color: black;
         margin-top: 2%;
-        margin-bottom: 2%;
+        margin-bottom: 26%;
         width: 80vw;
         margin-left: 13%;
         display: flex;
-        gap: 1rem;
+        gap: 0.5rem;
     }
     img{
         margin-top: 2%;
         margin-left: 20%;
-        height: 19vh;
+        height: 20vh;
         width: 50%;
         border: 4px dotted black;
     }
@@ -625,18 +662,22 @@ ul{
 
 @media (max-width:320px){
     .nav_{
+        background: linear-gradient(to bottom, #FF0000, #FF3366);
+        border: 4px dotted black;
+        text-align: center;
+        width: 32%;
         color: black;
         margin-top: 2%;
-        margin-left: 45%;
+        margin-left: 37%;
         font-weight: 700;
-        font-size: 15px;
+        font-size: 9px;
     }
     .firstwriteup{
         color: black;
         margin-top: 1.5%;
         border: 5px dotted red;
         width: 55vw;
-        height: 19vh;
+        height: 32vh;
         margin-left: 25%;
         text-align:center;
         font-size: 0.7rem;
@@ -645,7 +686,7 @@ ul{
         font-weight: 500;
         color: white;
         width: 22vw;
-        font-size: 0.5rem;
+        font-size: 6.5px;
         border: 2px solid black;
         cursor: pointer;
         border-radius: 2%;
@@ -665,21 +706,20 @@ ul{
         font-style: italic;
         margin-top: 2%;
         margin-left: 2%;
-        height: 20vh;
     } 
     .secondwriteup{
         color: black;
         margin-top: 2%;
-        margin-bottom: 2%;
+        margin-bottom: 25%;
         width: 80vw;
         margin-left: 13%;
         display: flex;
-        gap: 1rem;
+        gap: 0.5rem;
     }
     img{
         margin-left: 20%;
         width: 50%;
-        height: 19vh;
+        height: 20vh;
         border: 4px dotted black;
     }
     .underline{
